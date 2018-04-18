@@ -21,6 +21,8 @@
 
 # 编译说明 #
 
-   进入 makeblock/esp32，执行 `make`
+   进入 makeblock/esp32，执行 `make` 编译代码
+   执行 `make erase` 擦除模块的flash
+   执行 `make deploy` 编译并烧录固件
 
 # 修改说明 #

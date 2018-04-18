@@ -1,3 +1,0 @@
-build//g/esp32_firefly_bak/esp-idf/components/expat/library/xmltok_impl.o: \
- G:/esp32_firefly_bak/esp-idf/components/expat/library/xmltok_impl.c
- G:/esp32_firefly_bak/esp-idf/components/expat/library/xmltok_impl.c :
