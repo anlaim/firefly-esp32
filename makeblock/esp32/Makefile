@@ -1,6 +1,6 @@
 #Basic configuration information
 
-ESPIDF = /g/esp32_firefly_bak/esp-idf
+ESPIDF = ../../esp-idf
 PORT = COM3
 FLASH_MODE = dio
 BAUD = 921600
