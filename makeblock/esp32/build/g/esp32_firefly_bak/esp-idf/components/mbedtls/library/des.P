@@ -1,0 +1,15 @@
+build//g/esp32_firefly_bak/esp-idf/components/mbedtls/library/des.o: \
+ G:/esp32_firefly_bak/esp-idf/components/mbedtls/library/des.c \
+ G:/esp32_firefly_bak/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h \
+ sdkconfig.h \
+ G:/esp32_firefly_bak/esp-idf/components/mbedtls/include/mbedtls/check_config.h \
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/limits.h \
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/newlib.h \
+ c:\msys32\opt\xtensa-esp32-elf\lib\gcc\xtensa-esp32-elf\5.2.0\include-fixed\limits.h
+ G:/esp32_firefly_bak/esp-idf/components/mbedtls/library/des.c :
+ G:/esp32_firefly_bak/esp-idf/components/mbedtls/port/include/mbedtls/esp_config.h :
+ sdkconfig.h :
+ G:/esp32_firefly_bak/esp-idf/components/mbedtls/include/mbedtls/check_config.h :
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/limits.h :
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/newlib.h :
+ c:\msys32\opt\xtensa-esp32-elf\lib\gcc\xtensa-esp32-elf\5.2.0\include-fixed\limits.h :

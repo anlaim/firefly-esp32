@@ -1,0 +1,3 @@
+build//g/esp32_firefly_bak/esp-idf/components/expat/library/xmltok_ns.o: \
+ G:/esp32_firefly_bak/esp-idf/components/expat/library/xmltok_ns.c
+ G:/esp32_firefly_bak/esp-idf/components/expat/library/xmltok_ns.c :

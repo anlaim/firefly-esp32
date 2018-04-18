@@ -1,0 +1,15 @@
+build//g/esp32_firefly_bak/esp-idf/components/expat/library/xmlrole.o: \
+ G:/esp32_firefly_bak/esp-idf/components/expat/library/xmlrole.c \
+ c:\msys32\opt\xtensa-esp32-elf\lib\gcc\xtensa-esp32-elf\5.2.0\include\stddef.h \
+ G:/esp32_firefly_bak/esp-idf/components/expat/include/expat/expat_external.h \
+ G:/esp32_firefly_bak/esp-idf/components/expat/include/expat/internal.h \
+ G:/esp32_firefly_bak/esp-idf/components/expat/include/expat/xmlrole.h \
+ G:/esp32_firefly_bak/esp-idf/components/expat/include/expat/xmltok.h \
+ G:/esp32_firefly_bak/esp-idf/components/expat/include/expat/ascii.h
+ G:/esp32_firefly_bak/esp-idf/components/expat/library/xmlrole.c :
+ c:\msys32\opt\xtensa-esp32-elf\lib\gcc\xtensa-esp32-elf\5.2.0\include\stddef.h :
+ G:/esp32_firefly_bak/esp-idf/components/expat/include/expat/expat_external.h :
+ G:/esp32_firefly_bak/esp-idf/components/expat/include/expat/internal.h :
+ G:/esp32_firefly_bak/esp-idf/components/expat/include/expat/xmlrole.h :
+ G:/esp32_firefly_bak/esp-idf/components/expat/include/expat/xmltok.h :
+ G:/esp32_firefly_bak/esp-idf/components/expat/include/expat/ascii.h :

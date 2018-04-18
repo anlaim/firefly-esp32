@@ -1,0 +1,13 @@
+build//g/esp32_firefly_bak/esp-idf/components/xtensa-debug-module/eri.o: \
+ G:/esp32_firefly_bak/esp-idf/components/xtensa-debug-module/eri.c \
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/stdint.h \
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/machine/_default_types.h \
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/sys/features.h \
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/sys/_intsup.h \
+ G:/esp32_firefly_bak/esp-idf/components/xtensa-debug-module/include/eri.h
+ G:/esp32_firefly_bak/esp-idf/components/xtensa-debug-module/eri.c :
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/stdint.h :
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/machine/_default_types.h :
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/sys/features.h :
+ G:/esp32_firefly_bak/esp-idf/components/newlib/include/sys/_intsup.h :
+ G:/esp32_firefly_bak/esp-idf/components/xtensa-debug-module/include/eri.h :
