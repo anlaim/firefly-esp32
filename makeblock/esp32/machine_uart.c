@@ -189,12 +189,6 @@ STATIC mp_obj_t machine_uart_make_new(const mp_obj_type_t *type, size_t n_args, 
         nlr_raise(mp_obj_new_exception_msg_varg(&mp_type_ValueError, "UART(%d) does not exist", uart_num));
     }
 
-    // Attempts to use UART0 from Python has resulted in all sorts of fun errors.
-    // FIXME: UART0 is disabled for now.
-    if (uart_num == UART_NUM_0) {
-        nlr_raise(mp_obj_new_exception_msg_varg(&mp_type_ValueError, "UART(%d) is disabled (dedicated to REPL)", uart_num));
-    }
-
      // Defaults
     uart_config_t uartcfg = {
         .baud_rate = 115200,

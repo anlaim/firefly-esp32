@@ -32,3 +32,11 @@
 - 执行 `make deploy` 编译并烧录固件
 
 # 修改说明 #
+
+## 1. 文件结构 ##
+
+- esp-idf esp32 官方的开发框架
+- makeblock 用户的代码文件
+- micropython micropython 官方的版本
+
+# 修改说明 #

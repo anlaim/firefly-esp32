@@ -62,7 +62,6 @@ void mp_task(void *pvParameter) {
     #if MICROPY_PY_THREAD
     mp_thread_init(&mp_task_stack[0], MP_TASK_STACK_LEN);
     #endif
-    uart_init();
 
     // Allocate the uPy heap using malloc and get the largest available region
     size_t mp_task_heap_size = heap_caps_get_largest_free_block(MALLOC_CAP_8BIT);
@@ -87,19 +86,15 @@ soft_reset:
     pyexec_frozen_module("_boot.py");
     pyexec_file("boot.py");
     if (pyexec_mode_kind == PYEXEC_MODE_FRIENDLY_REPL) {
+        pyexec_frozen_module("system_thread.py");
+    }
+
+    if (pyexec_mode_kind == PYEXEC_MODE_FRIENDLY_REPL) {
         pyexec_frozen_module("main.py");
     }
 
     for (;;) {
-        if (pyexec_mode_kind == PYEXEC_MODE_RAW_REPL) {
-            if (pyexec_raw_repl() != 0) {
-                break;
-            }
-        } else {
-            if (pyexec_friendly_repl() != 0) {
-                break;
-            }
-        }
+
     }
 
     #if MICROPY_PY_THREAD
