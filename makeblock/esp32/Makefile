@@ -1,6 +1,6 @@
 #Basic configuration information
 
-ESPIDF = ../../esp-idf
+ESPIDF_PATH = ../../esp-idf
 PORT = COM3
 FLASH_MODE = dio
 BAUD = 921600
@@ -48,6 +48,6 @@ ifeq ($(mpy_cross_exe_file), $(wildcard $(mpy_cross_exe_file_path)))
 	rm -r ../../micropython/mpy-cross/mpy-cross.map
 	rm -rf ../../micropython/mpy-cross/build
 else
-	echo mpy_cross has not been compiled
+	@echo mpy_cross has not been compiled
 endif
 include GNUMakefile

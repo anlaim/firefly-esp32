@@ -1,8 +1,10 @@
 # 安装开发编译环境 #
 
 ## 1. 下载MSYS2环境 ##
+
+   [Standard Setup of Toolchain for Windows](https://esp-idf.readthedocs.io/en/latest/get-started/windows-setup.html "Standard Setup of Toolchain for Windows")
    
-   可以从乐鑫的官网下载 MSYS2 all-in-one 的压缩包，解压缩到C盘的根目录。
+   可以从乐鑫的官网下载 MSYS2 [all-in-one](https://dl.espressif.com/dl/esp32_win32_msys2_environment_and_toolchain-20180110.zip "all-in-one") 的压缩包，解压缩到C盘的根目录。
 
 ## 2. 配置MYSY2  ##
    

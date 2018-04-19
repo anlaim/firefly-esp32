@@ -9,7 +9,7 @@ MICROPY_FATFS = 1
 MICROPY_PY_BTREE = 1
 
 #FROZEN_DIR = scripts
-FROZEN_MPY_DIR = modules
+FROZEN_MPY_DIR = ../apps
 
 # include py core make definitions
 include $(TOP)/py/py.mk
@@ -24,16 +24,18 @@ CROSS_COMPILE ?= xtensa-esp32-elf-
 ESPIDF_SUPHASH := c1c49b635a6c59b4ca0c4a285e490545241e7a73
 
 # paths to ESP IDF and its components
-ifeq ($(ESPIDF),)
+ifeq ($(ESPIDF_PATH),)
 ifneq ($(IDF_PATH),)
-ESPIDF = $(IDF_PATH)
+ESPIDF_PATH = IDF_PATH
 else
 $(info The ESPIDF variable has not been set, please set it to the root of the esp-idf repository.)
 $(info See README.md for installation instructions.)
 $(info Supported git hash: $(ESPIDF_SUPHASH))
-$(error ESPIDF not set)
+$(error ESPIDF_PATH not set)
 endif
 endif
+ESPIDF := $(shell cd $(ESPIDF_PATH) && pwd)
+
 ESPCOMP = $(ESPIDF)/components
 ESPTOOL ?= $(ESPCOMP)/esptool_py/esptool/esptool.py
 
